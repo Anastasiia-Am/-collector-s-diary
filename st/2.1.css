@@ -8,14 +8,17 @@ h2 {font-size: 24pt;
     text-align: center;
 	font-weight: normal;
 }
-footer {font-size: 20pt;
- text-align: justify;
+ main {font-size: 20pt;
+
  }
- main {font-size: 16pt;
+ footer {font-size: 16pt;
  text-align: right;
  }
 
 .baner img {width: 100%;}
-.my {text-align: center;
-}		    
+.my {text-align: center;}		    
 .my img {width: 15%;}
+table.disk th, table.disk td {
+	border: grey thin solid;
+	padding:4 4px
+}
