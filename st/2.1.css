@@ -1,24 +1,47 @@
 body {font-family:Century Gothic;
+	  color:black;
 }
-h1 {font-size: 54pt;
-    text-align: center;
-	font-weight: normal;
-}
-h2 {font-size: 24pt;
-    text-align: center;
-	font-weight: normal;
-}
- main {font-size: 20pt;
 
+ main {font-size: 16pt;
  }
- footer {font-size: 16pt;
+ nav a {font-size:18pt;
+  margin:10px 50px 30px 0px;
+ padding-left:30px;
+ }
+ nav {float:center;
+	   margin-bottom:50px;
+}
+ 
+ footer {font-size: 14pt;
  text-align: right;
  }
+ 
+ 
+ h1 {font-size: 34pt;
+    text-align: center;
+	font-weight: normal;
+}
+h2 {font-size: 28pt;
+    text-align: center;
+	font-weight: normal;
+}
+h3 {font-size: 18pt;
+}
 
 .baner img {width: 100%;}
 .my {text-align: center;}		    
 .my img {width: 15%;}
+
 table.disk th, table.disk td {
-	border: grey thin solid;
-	padding:4 4px
+	border: black thin solid;
+	padding: 1px;
+	color: white;
+	background-color:grey;
+	
 }
+table.nintendo td {
+	border-bottom: black thin dotted;
+	padding: 10px;
+	
+}
+table.nintendo img {width: 100px;}
