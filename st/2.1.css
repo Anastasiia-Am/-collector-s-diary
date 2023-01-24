@@ -10,13 +10,21 @@ body {font-family:Century Gothic;
  }
  nav {float:center;
 	   margin-bottom:50px;
+    justify-content: space-between;
 }
- 
+nav a:link, nav a:visited { 
+  color: #333333;
+text-decoration: none; 
+}
+nav a:active, nav a:hover { 
+  color: white;
+background-color: #333333;
+text-decoration: none; 
+}
  footer {font-size: 14pt;
  text-align: right;
  }
- 
- 
+
  h1 {font-size: 34pt;
     text-align: center;
 	font-weight: normal;
